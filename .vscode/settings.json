@@ -1,0 +1,6 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "python.defaultInterpreterPath": "python",
+  "files.eol": "\n"
+}

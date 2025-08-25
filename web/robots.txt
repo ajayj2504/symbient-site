@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Live sitemap
+Sitemap: https://symbient.in/sitemap.xml

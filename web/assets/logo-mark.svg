@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <style>
+      .dot { fill: #2f6b2f; }
+    </style>
+  </defs>
+  <!-- Simple dotted cluster forming a circular mark -->
+  <g transform="translate(64,64)">
+    <!-- ring 1 -->
+    <circle class="dot" r="4" cx="0" cy="-40"/>
+    <circle class="dot" r="4" cx="38" cy="0"/>
+    <circle class="dot" r="4" cx="0" cy="40"/>
+    <circle class="dot" r="4" cx="-38" cy="0"/>
+    <!-- ring 2 -->
+    <circle class="dot" r="3.5" cx="28" cy="-28"/>
+    <circle class="dot" r="3.5" cx="28" cy="28"/>
+    <circle class="dot" r="3.5" cx="-28" cy="28"/>
+    <circle class="dot" r="3.5" cx="-28" cy="-28"/>
+    <!-- ring 3 -->
+    <circle class="dot" r="3" cx="0" cy="-26"/>
+    <circle class="dot" r="3" cx="26" cy="0"/>
+    <circle class="dot" r="3" cx="0" cy="26"/>
+    <circle class="dot" r="3" cx="-26" cy="0"/>
+    <!-- inner -->
+    <circle class="dot" r="2.5" cx="14" cy="-14"/>
+    <circle class="dot" r="2.5" cx="14" cy="14"/>
+    <circle class="dot" r="2.5" cx="-14" cy="14"/>
+    <circle class="dot" r="2.5" cx="-14" cy="-14"/>
+    <circle class="dot" r="2.2" cx="0" cy="0"/>
+  </g>
+</svg>

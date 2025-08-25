@@ -1,0 +1,51 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Serve static web (Python)",
+			"type": "shell",
+			"command": "C:/Users/Ajay/AppData/Local/Microsoft/WindowsApps/python3.11.exe",
+			"args": [
+				"-m",
+				"http.server",
+				"8080",
+				"--directory",
+				"web"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Serve static web (Python)",
+			"type": "shell",
+			"command": "C:/Users/Ajay/AppData/Local/Microsoft/WindowsApps/python3.11.exe",
+			"args": [
+				"-m",
+				"http.server",
+				"8080",
+				"--directory",
+				"web"
+			],
+			"isBackground": true,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Serve static web (Python)",
+			"type": "shell",
+			"command": "C:/Users/Ajay/AppData/Local/Microsoft/WindowsApps/python3.11.exe",
+			"args": [
+				"-m",
+				"http.server",
+				"8080",
+				"--directory",
+				"web"
+			],
+			"isBackground": true,
+			"group": "build"
+		}
+	]
+}
