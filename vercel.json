@@ -1,5 +1,12 @@
 {
-  "public": "web",
+  "version": 2,
+  "public": true,
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/web/$1"
+    }
+  ]
 }
